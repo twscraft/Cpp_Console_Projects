@@ -31,9 +31,9 @@ int main()
 		cin >> opc;
 
 		switch (opc) {
+			system("cls");
 		case 1:
 			int cant;
-			system("cls");
 			cout << "Ingresa la cantidad de matrices a sumar: ";
 			cin >> cant;
 			for (int i = 0; i < cant; i++)
@@ -45,35 +45,28 @@ int main()
 
 				//Pedimos la cantidad de filas y columnas de nuestra i-esima matriz
 				int f, c; cin >> f >> c;
-				matrizN = leerMatriz(f, c);
+				//matrizN = leerMatriz(f, c);
 			}
 			break;
 		case 2:
-			system("cls");
 			break;
 		case 3:
-			system("cls");
 			break;
 		case 4:
-			system("cls");
 			break;
 		case 5:
-			system("cls");
 			break;
 		case 6:
-			system("cls");
 			break;
 		case 7:
-			system("cls");
 			break;
 		case 8:
-			system("cls");
 			break;
 		default:
-			system("cls");
 			cout << "¡ERROR! Seleccione una opcion valida";
 		}
 
+		system("cls");
 	} while (opc != 10);
 
 	return 0;
@@ -89,4 +82,6 @@ vector<vector<int>> leerMatriz(int filas, int columnas) {
 			cin >> matriz[i][j];
 	return matriz;
 }
+
+
 // este codigo es dedicado a los valiente guerreros apanecos
