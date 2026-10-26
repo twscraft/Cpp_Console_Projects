@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CalculadoraMatrices/CalculadoraMatrices.vcxproj" Id="6c2b64b2-8c62-493b-95c2-a855cef59e94" />
+</Solution>
